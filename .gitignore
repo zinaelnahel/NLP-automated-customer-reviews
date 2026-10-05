@@ -1,0 +1,4 @@
+__pycache__/
+.streamlit/secrets.toml
+models/distilbert-sentiment/
+/data/*.csv
