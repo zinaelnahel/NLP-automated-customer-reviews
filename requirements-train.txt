@@ -1,7 +1,6 @@
 numpy>=1.26
 pandas>=2.0
 scikit-learn>=1.4
-sentence-transformers>=3.0,<6
 torch>=2.2
 transformers>=4.45,<6
 tqdm>=4.65
