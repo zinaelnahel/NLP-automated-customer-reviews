@@ -1,7 +1,6 @@
 __pycache__/
 .streamlit/secrets.toml
 models/distilbert-sentiment/
-/data/*.csv
 /outputs/bart_cache/
 /.venv-qwen/
 /outputs/qwen_cache/
