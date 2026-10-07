@@ -24,7 +24,9 @@ Reviews discuss everyday charging convenience alongside doubts about value and c
 
 **Complaints and limits.** One reports receiving an LG/Verizon accessory instead of the advertised Amazon charger [E3270]. Another says the adapter works but is overpriced [E3282]. The fulfillment complaint does not demonstrate that the intended charger is defective.
 
-### 3: profile 79
+### 3: Amazon PowerFast 9W USB charger
+
+*Review-derived name (profile 79).* The full saved review describes a 9-watt replacement model of the PowerFast charger and explicitly attributes PowerFast chargers to Amazon; the exact revision is unverified [E28633].
 
 **4.21/5** from 73 rated reviews; 1–2-star share: 16.4%.
 
@@ -34,11 +36,13 @@ Reviews discuss everyday charging convenience alongside doubts about value and c
 
 ## Key differences
 
-Profile 11's sample emphasizes charging and value; profile 12 adds travel convenience and a wrong-item delivery report. Profile 79 adds connector flexibility but also a low-power warning [E3077, E3103, E3477, E3270, E28633, E28634]. These are differences in reported experience, not verified specification comparisons.
+Profile 11's sample emphasizes charging and value; profile 12 adds travel convenience and a wrong-item delivery report. Amazon PowerFast 9W USB charger (profile 79) adds connector flexibility but also a low-power warning [E3077, E3103, E3477, E3270, E28633, E28634]. These are differences in reported experience, not verified specification comparisons.
 
 ## Lowest-rated eligible profile
 
-### Lowest: profile 88
+### Lowest: Charger advertised for Kindle Fire HDX 8.9
+
+*Review-derived name (profile 88).* A reviewer identifies the advertised target device as Kindle Fire HDX 8.9. This is a compatibility description, not a verified brand, model, or assurance that it works [E34650].
 
 **2.46/5** from 13 rated reviews; 1–2-star share: 61.5%.
 

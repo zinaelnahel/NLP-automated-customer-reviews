@@ -10,7 +10,9 @@ The sample includes enthusiasm for streaming services and home-entertainment use
 
 Only 1 eligible profile(s) are available; a top-three list cannot be supported.
 
-### 1: profile 85
+### 1: Amazon Fire TV devices (mixed models)
+
+*Review-derived name (profile 85).* Reviews describe a Fire TV box and FireTV-2; another mentions a Fire TV Stick. A family-level name is supported, but assigning this entire group to one exact model would be unreliable [E34625, E34387, E34627].
 
 **4.71/5** from 5056 rated reviews; 1–2-star share: 1.4%.
 
@@ -24,7 +26,7 @@ Only one profile meets the minimum rating count, so an eligible top-three compar
 
 ## Lowest-rated eligible profile
 
-Profile 85 is the lowest-rated eligible profile; its statistics and review details appear above.
+Amazon Fire TV devices (mixed models) (profile 85) is the lowest-rated eligible profile; its statistics and review details appear above.
 
 It is simultaneously the highest- and lowest-rated eligible profile because it is the only eligible one. Interface and connection complaints warrant investigation [E34384, E34387, E30127]; its relative position supplies no reason to call it the worst product or recommend avoiding it.
 

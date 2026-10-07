@@ -10,7 +10,9 @@ The sampled reviews describe a balance between secure fit, comfortable handling,
 
 Only 2 eligible profile(s) are available; a top-three list cannot be supported.
 
-### 1: profile 80
+### 1: Cover for Kindle Fire HD 6
+
+*Review-derived name (profile 80).* Reviews identify the device as a Fire HD6 or Kindle Fire HD 6, but do not establish an exact cover model [E28660, E28662].
 
 **3.92/5** from 13 rated reviews; 1–2-star share: 23.1%.
 
@@ -18,7 +20,9 @@ Only 2 eligible profile(s) are available; a top-three list cannot be supported.
 
 **Complaints and limits.** Three reviewers describe an unstable stand or a cover that slides, making hands-free use difficult [E28660, E28655, E28662]. One also reports poor alignment when closed and unintended waking from sleep [E28662].
 
-### 2: profile 86
+### 2: Hinged cover for Kindle DX
+
+*Review-derived name (profile 86).* Reviews describe a cover for the Kindle DX with a hinge or hook attachment; the exact brand and model remain uncertain [E34633, E34631].
 
 **3.50/5** from 10 rated reviews; 1–2-star share: 30.0%.
 
@@ -28,11 +32,11 @@ Only 2 eligible profile(s) are available; a top-three list cannot be supported.
 
 ## Key differences
 
-Profile 80's sampled complaints center on standing and alignment; profile 86's concern the attachment mechanism and possible device damage [E28660, E28662, E34633, E34631]. The evidence describes different usability problems, rather than establishing a universally better cover.
+Cover for Kindle Fire HD 6 (profile 80)'s sampled complaints center on standing and alignment; profile 86's concern the attachment mechanism and possible device damage [E28660, E28662, E34633, E34631]. The evidence describes different usability problems, rather than establishing a universally better cover.
 
 ## Lowest-rated eligible profile
 
-Profile 86 is the lowest-rated eligible profile; its statistics and review details appear above.
+Hinged cover for Kindle DX (profile 86) is the lowest-rated eligible profile; its statistics and review details appear above.
 
 The frame-damage reports give a concrete reason to investigate the attachment design before choosing this profile [E34633, E34631]. They do not establish that every unit causes damage.
 

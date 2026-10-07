@@ -30,7 +30,12 @@ VARIANTS = {
              'Describe allegations as reviewer reports, never established technical facts. '
              'Only call a theme recurring when at least two supplied reviews independently support it. '
              'Compare metadata profiles cautiously; their names are unverified and can conflict with review content. '
-             'Use profile numbers rather than attributing reviews to an uncertain product name. '
+             'When the metadata name is missing, infer a descriptive product name from reviews of that same profile '
+             'and label it review-derived, retaining the profile number and supporting evidence IDs. '
+             'Distinguish the reviewed item from accessories, competitors, and older devices mentioned in passing. '
+             'If reviews describe multiple models, use a family-level name and acknowledge the mixed identities. '
+             'If the brand or model is not supported, use a generic descriptive name rather than guessing. '
+             'For conflicting nonmissing metadata names, continue using profile numbers. '
              'Do not recommend avoiding a product solely because it has the lowest mean rating. '
              'If the evidence is inadequate, say so instead of inventing a top-three product list.',
 }

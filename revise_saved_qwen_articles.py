@@ -27,7 +27,10 @@ def profile_section(item, summary, evidence, heading):
     profile = int(item['_profile'])
     for text in summary.values():
         check_citations(text, evidence, profile)
-    return [f'### {heading}: profile {profile}', '',
+    label = summary.get('inferred_name', f'profile {profile}')
+    identity = ([f"*Review-derived name (profile {profile}).* {summary['name_basis']}", '']
+                if 'inferred_name' in summary else [])
+    return [f'### {heading}: {label}', ''] + identity + [
             f"**{item['mean_rating']:.2f}/5** from {item['rated_reviews']} rated reviews; "
             f"1–2-star share: {item['negative_share']:.1%}.", '',
             '**Strengths.** ' + summary['strengths'], '',
@@ -70,7 +73,13 @@ def render(payload, summary):
               'Evidence IDs refer to the accompanying JSON. Its generation measurements and audits describe the '
               'original Qwen output, preserved in `original_drafts/`. This revision was edited without rerunning Qwen; '
               'editorial provenance is in `editorial_revision_manifest.json`.', '']
-    return '\n'.join(lines)
+    article = '\n'.join(lines)
+    # Keep profile IDs for traceability but make named comparisons readable.
+    for profile, details in summary['profiles'].items():
+        if 'inferred_name' in details:
+            article = re.sub(rf'\bProfile {profile}\b',
+                             f"{details['inferred_name']} (profile {profile})", article)
+    return article
 
 
 def save_revision(path, article):
