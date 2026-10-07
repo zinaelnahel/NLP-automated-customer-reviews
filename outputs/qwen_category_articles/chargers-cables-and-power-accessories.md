@@ -8,7 +8,9 @@ Reviews discuss everyday charging convenience alongside doubts about value and c
 
 ## Highest-rated eligible profiles
 
-### 1: profile 11
+### 1: Kindle wall charger (model unspecified)
+
+*Review-derived name.* Reviews describe a charger used with a Kindle but do not identify an exact model [E3077, E3103].
 
 **4.46/5** from 189 rated reviews; 1–2-star share: 10.6%.
 
@@ -16,7 +18,9 @@ Reviews discuss everyday charging convenience alongside doubts about value and c
 
 **Complaints and limits.** One questions whether an additional charger is necessary; another says it works but is overpriced and should have been included with the device [E3084, E3103]. These are value concerns rather than reported failures.
 
-### 2: profile 12
+### 2: Amazon 5W USB charger (advertised item)
+
+*Review-derived name.* A reviewer explicitly names the ordered item as the Amazon 5W USB Official OEM Charger; their delivered item differed, so this label identifies the advertised item [E3270].
 
 **4.43/5** from 212 rated reviews; 1–2-star share: 8.0%.
 
@@ -26,7 +30,7 @@ Reviews discuss everyday charging convenience alongside doubts about value and c
 
 ### 3: Amazon PowerFast 9W USB charger
 
-*Review-derived name (profile 79).* The full saved review describes a 9-watt replacement model of the PowerFast charger and explicitly attributes PowerFast chargers to Amazon; the exact revision is unverified [E28633].
+*Review-derived name.* The full saved review describes a 9-watt replacement model of the PowerFast charger and explicitly attributes PowerFast chargers to Amazon; the exact revision is unverified [E28633].
 
 **4.21/5** from 73 rated reviews; 1–2-star share: 16.4%.
 
@@ -36,13 +40,13 @@ Reviews discuss everyday charging convenience alongside doubts about value and c
 
 ## Key differences
 
-Profile 11's sample emphasizes charging and value; profile 12 adds travel convenience and a wrong-item delivery report. Amazon PowerFast 9W USB charger (profile 79) adds connector flexibility but also a low-power warning [E3077, E3103, E3477, E3270, E28633, E28634]. These are differences in reported experience, not verified specification comparisons.
+Kindle wall charger (model unspecified)'s sample emphasizes charging and value; Amazon 5W USB charger (advertised item) adds travel convenience and a wrong-item delivery report. Amazon PowerFast 9W USB charger adds connector flexibility but also a low-power warning [E3077, E3103, E3477, E3270, E28633, E28634]. These are differences in reported experience, not verified specification comparisons.
 
 ## Lowest-rated eligible profile
 
 ### Lowest: Charger advertised for Kindle Fire HDX 8.9
 
-*Review-derived name (profile 88).* A reviewer identifies the advertised target device as Kindle Fire HDX 8.9. This is a compatibility description, not a verified brand, model, or assurance that it works [E34650].
+*Review-derived name.* A reviewer identifies the advertised target device as Kindle Fire HDX 8.9. This is a compatibility description, not a verified brand, model, or assurance that it works [E34650].
 
 **2.46/5** from 13 rated reviews; 1–2-star share: 61.5%.
 

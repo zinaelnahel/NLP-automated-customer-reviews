@@ -4,6 +4,10 @@
     "original": "original_drafts/cases-and-protective-covers.md",
     "evidence": "cases-and-protective-covers.json",
     "method": "Evidence-checked editorial revision; no new model inference",
+    "review_derived_names": {
+      "80": "Cover for Kindle Fire HD 6",
+      "86": "Hinged cover for Kindle DX"
+    },
     "checks": [
       "citation existence",
       "profile citation attribution",
@@ -16,6 +20,12 @@
     "original": "original_drafts/chargers-cables-and-power-accessories.md",
     "evidence": "chargers-cables-and-power-accessories.json",
     "method": "Evidence-checked editorial revision; no new model inference",
+    "review_derived_names": {
+      "11": "Kindle wall charger (model unspecified)",
+      "12": "Amazon 5W USB charger (advertised item)",
+      "79": "Amazon PowerFast 9W USB charger",
+      "88": "Charger advertised for Kindle Fire HDX 8.9"
+    },
     "checks": [
       "citation existence",
       "profile citation attribution",
@@ -28,6 +38,12 @@
     "original": "original_drafts/echo-speakers-and-smart-home-devices.md",
     "evidence": "echo-speakers-and-smart-home-devices.json",
     "method": "Evidence-checked editorial revision; no new model inference",
+    "review_derived_names": {
+      "67": "Amazon Echo (model unspecified)",
+      "68": "Wi-Fi device (model unspecified)",
+      "63": "Alexa-enabled home device (model unspecified)",
+      "53": "Replacement power cord for Echo / Fire TV (mixed references)"
+    },
     "checks": [
       "citation existence",
       "profile citation attribution",
@@ -40,6 +56,9 @@
     "original": "original_drafts/fire-tv-and-streaming-devices.md",
     "evidence": "fire-tv-and-streaming-devices.json",
     "method": "Evidence-checked editorial revision; no new model inference",
+    "review_derived_names": {
+      "85": "Amazon Fire TV devices (mixed models)"
+    },
     "checks": [
       "citation existence",
       "profile citation attribution",
@@ -52,6 +71,12 @@
     "original": "original_drafts/tablets-and-e-readers.md",
     "evidence": "tablets-and-e-readers.json",
     "method": "Evidence-checked editorial revision; no new model inference",
+    "review_derived_names": {
+      "26": "Kindle e-reader with squeeze page controls",
+      "8": "Amazon tablet (model unspecified)",
+      "48": "E-reader with glass surface (model unspecified)",
+      "10": "Amazon Fire tablet (model unspecified)"
+    },
     "checks": [
       "citation existence",
       "profile citation attribution",

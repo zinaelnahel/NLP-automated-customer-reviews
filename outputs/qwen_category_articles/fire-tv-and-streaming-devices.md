@@ -4,7 +4,7 @@
 
 Based on 5,074 source rows across 5 metadata profiles. Rankings use mean stars among profiles with at least 10 rated reviews. Reviews are historical, and the selected excerpts do not establish complaint frequency.
 
-The sample includes enthusiasm for streaming services and home-entertainment use [E21563, E21220]. Two reviewers report boot problems with refurbished units in profile 56 [E21562, E21566]. Those complaints should not be attributed to the eligible profile 85.
+The sample includes enthusiasm for streaming services and home-entertainment use [E21563, E21220]. Two reviewers report boot problems with refurbished units in a separate refurbished Fire TV review group [E21562, E21566]. Those complaints should not be attributed to the eligible Amazon Fire TV devices group.
 
 ## Highest-rated eligible profiles
 
@@ -12,7 +12,7 @@ Only 1 eligible profile(s) are available; a top-three list cannot be supported.
 
 ### 1: Amazon Fire TV devices (mixed models)
 
-*Review-derived name (profile 85).* Reviews describe a Fire TV box and FireTV-2; another mentions a Fire TV Stick. A family-level name is supported, but assigning this entire group to one exact model would be unreliable [E34625, E34387, E34627].
+*Review-derived name.* Reviews describe a Fire TV box and FireTV-2; another mentions a Fire TV Stick. A family-level name is supported, but assigning this entire group to one exact model would be unreliable [E34625, E34387, E34627].
 
 **4.71/5** from 5056 rated reviews; 1–2-star share: 1.4%.
 
@@ -22,11 +22,11 @@ Only 1 eligible profile(s) are available; a top-three list cannot be supported.
 
 ## Key differences
 
-Only one profile meets the minimum rating count, so an eligible top-three comparison is unavailable. Profile 56's refurbished-unit complaints provide category context [E21562, E21566], but it is not an additional eligible ranked product.
+Only one profile meets the minimum rating count, so an eligible top-three comparison is unavailable. The separate refurbished Fire TV group?s refurbished-unit complaints provide category context [E21562, E21566], but it is not an additional eligible ranked product.
 
 ## Lowest-rated eligible profile
 
-Amazon Fire TV devices (mixed models) (profile 85) is the lowest-rated eligible profile; its statistics and review details appear above.
+Amazon Fire TV devices (mixed models) is the lowest-rated eligible profile; its statistics and review details appear above.
 
 It is simultaneously the highest- and lowest-rated eligible profile because it is the only eligible one. Interface and connection complaints warrant investigation [E34384, E34387, E30127]; its relative position supplies no reason to call it the worst product or recommend avoiding it.
 

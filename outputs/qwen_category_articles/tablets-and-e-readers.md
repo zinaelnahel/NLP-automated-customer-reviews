@@ -4,11 +4,13 @@
 
 Based on 21,759 source rows across 47 metadata profiles. Rankings use mean stars among profiles with at least 10 rated reviews. Reviews are historical, and the selected excerpts do not establish complaint frequency.
 
-The category mixes tablet and dedicated reading experiences. One reviewer describes a tablet as suitable for basic browsing and entertainment [E606], while another values an e-reader's handling and page controls but reports a screen issue [E20728]. Product names conflict with some review descriptions, so the rankings below use profile IDs.
+The category mixes tablet and dedicated reading experiences. One reviewer describes a tablet as suitable for basic browsing and entertainment [E606], while another values an e-reader's handling and page controls but reports a screen issue [E20728]. Product names conflict with some review descriptions, so the rankings below use descriptive names inferred from the reviews.
 
 ## Highest-rated eligible profiles
 
-### 1: profile 26
+### 1: Kindle e-reader with squeeze page controls
+
+*Review-derived name.* The review title names Kindle and the text describes a small e-reader with squeeze-based page turning. It does not explicitly identify an exact Kindle model [E14708].
 
 **4.86/5** from 51 rated reviews; 1–2-star share: 0.0%.
 
@@ -16,7 +18,9 @@ The category mixes tablet and dedicated reading experiences. One reviewer descri
 
 **Complaints and limits.** No low-rated reviews are recorded for this profile in the saved statistics. The supplied sample cannot establish that the device is problem-free.
 
-### 2: profile 8
+### 2: Amazon tablet (model unspecified)
+
+*Review-derived name.* The review describes a tablet with Amazon content and features, without explicitly naming its model [E3052].
 
 **4.83/5** from 12 rated reviews; 1–2-star share: 0.0%.
 
@@ -24,7 +28,9 @@ The category mixes tablet and dedicated reading experiences. One reviewer descri
 
 **Complaints and limits.** No low-rated reviews are recorded for this profile. The same positive review acknowledges that competing tablets have better specifications [E3052], but provides no measured comparison.
 
-### 3: profile 48
+### 3: E-reader with glass surface (model unspecified)
+
+*Review-derived name.* The review describes glass on top of a reader but gives no product name or model [E21186].
 
 **4.82/5** from 49 rated reviews; 1–2-star share: 2.0%.
 
@@ -34,11 +40,13 @@ The category mixes tablet and dedicated reading experiences. One reviewer descri
 
 ## Key differences
 
-Profile 26's sample emphasizes reader portability and page controls, profile 8's tablet review emphasizes content and battery life, and profile 48's reader review emphasizes its glass surface [E14708, E3052, E21186]. The mixed identities prevent a reliable comparison of three verified tablet models.
+Kindle e-reader with squeeze page controls's sample emphasizes reader portability and page controls, Amazon tablet (model unspecified)'s tablet review emphasizes content and battery life, and E-reader with glass surface (model unspecified)'s reader review emphasizes its glass surface [E14708, E3052, E21186]. The mixed identities prevent a reliable comparison of three verified tablet models.
 
 ## Lowest-rated eligible profile
 
-### Lowest: profile 10
+### Lowest: Amazon Fire tablet (model unspecified)
+
+*Review-derived name.* A reviewer explicitly calls the replacement tablet a FIRE, without naming its model [E3069].
 
 **4.42/5** from 12 rated reviews; 1–2-star share: 8.3%.
 

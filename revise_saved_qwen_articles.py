@@ -27,9 +27,8 @@ def profile_section(item, summary, evidence, heading):
     profile = int(item['_profile'])
     for text in summary.values():
         check_citations(text, evidence, profile)
-    label = summary.get('inferred_name', f'profile {profile}')
-    identity = ([f"*Review-derived name (profile {profile}).* {summary['name_basis']}", '']
-                if 'inferred_name' in summary else [])
+    label = summary['inferred_name']
+    identity = [f"*Review-derived name.* {summary['name_basis']}", '']
     return [f'### {heading}: {label}', ''] + identity + [
             f"**{item['mean_rating']:.2f}/5** from {item['rated_reviews']} rated reviews; "
             f"1–2-star share: {item['negative_share']:.1%}.", '',
@@ -74,11 +73,13 @@ def render(payload, summary):
               'original Qwen output, preserved in `original_drafts/`. This revision was edited without rerunning Qwen; '
               'editorial provenance is in `editorial_revision_manifest.json`.', '']
     article = '\n'.join(lines)
-    # Keep profile IDs for traceability but make named comparisons readable.
+    # Internal group IDs stay in the evidence and manifest, not consumer prose.
     for profile, details in summary['profiles'].items():
         if 'inferred_name' in details:
-            article = re.sub(rf'\bProfile {profile}\b',
-                             f"{details['inferred_name']} (profile {profile})", article)
+            article = re.sub(rf'\bprofile {profile}\b',
+                             details['inferred_name'], article, flags=re.I)
+    if re.search(r'\bprofile\s+\d+\b', article, re.I):
+        raise ValueError('Article still contains an unnamed numeric profile reference.')
     return article
 
 
@@ -103,6 +104,7 @@ def main():
         save_revision(OUTPUT / f'{slug}.md', article)
         manifest.append({'article': f'{slug}.md', 'original': f'original_drafts/{slug}.md',
                          'evidence': f'{slug}.json', 'method': 'Evidence-checked editorial revision; no new model inference',
+                         'review_derived_names': {key: details['inferred_name'] for key, details in summaries[slug]['profiles'].items()},
                          'checks': ['citation existence', 'profile citation attribution', 'statistics rendered from saved facts'],
                          'limits': 'Checks are structural; semantic support was reviewed editorially, not scored independently.'})
     (OUTPUT / 'editorial_revision_manifest.json').write_text(json.dumps(manifest, indent=2), encoding='utf-8')
