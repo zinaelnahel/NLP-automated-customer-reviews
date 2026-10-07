@@ -1,4 +1,5 @@
 __pycache__/
+.venv*/
 .streamlit/secrets.toml
 models/distilbert-sentiment/
 /outputs/bart_cache/
