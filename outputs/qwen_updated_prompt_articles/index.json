@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Cases and protective covers",
+    "variant": "cited",
+    "article": "cases-and-protective-covers.md",
+    "evidence": "cases-and-protective-covers.json"
+  },
+  {
+    "category": "Chargers, cables and power accessories",
+    "variant": "cited",
+    "article": "chargers-cables-and-power-accessories.md",
+    "evidence": "chargers-cables-and-power-accessories.json"
+  },
+  {
+    "category": "Echo speakers and smart-home devices",
+    "variant": "cited",
+    "article": "echo-speakers-and-smart-home-devices.md",
+    "evidence": "echo-speakers-and-smart-home-devices.json"
+  },
+  {
+    "category": "Fire TV and streaming devices",
+    "variant": "cited",
+    "article": "fire-tv-and-streaming-devices.md",
+    "evidence": "fire-tv-and-streaming-devices.json"
+  },
+  {
+    "category": "Tablets and e-readers",
+    "variant": "cited",
+    "article": "tablets-and-e-readers.md",
+    "evidence": "tablets-and-e-readers.json"
+  }
+]
