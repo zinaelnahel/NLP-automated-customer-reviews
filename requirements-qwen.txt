@@ -1,0 +1,7 @@
+# Install CUDA PyTorch first; see README Task 3 GPU setup.
+torch>=2.7
+transformers>=4.51,<6
+accelerate>=1.6
+bitsandbytes>=0.46
+pandas>=2.0
+ipykernel>=6

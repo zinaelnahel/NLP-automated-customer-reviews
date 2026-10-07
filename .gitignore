@@ -2,3 +2,11 @@ __pycache__/
 .streamlit/secrets.toml
 models/distilbert-sentiment/
 /data/*.csv
+/outputs/bart_cache/
+/.venv-qwen/
+/outputs/qwen_cache/
+/outputs/bart_category_articles/*.json
+/outputs/bart_category_articles_framed/*.json
+!/outputs/bart_category_articles/source_framing_comparison.json
+/outputs/qwen_category_articles/*.json
+/outputs/qwen_prompt_comparison/*.json

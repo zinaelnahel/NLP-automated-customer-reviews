@@ -99,7 +99,48 @@ The app downloads the model from Hugging Face on first use and caches it for lat
 
 The app uses the public `Zinaelnahel/review-sentiment-model` model ID by default. If you publish a different model repo, set `SENTIMENT_MODEL_ID` in the app's Streamlit secrets/environment settings.
 
-## Project files
+## Task 3: generate category articles with BART
+
+Open `models/category_summary_bart.ipynb` and select the `.venv-2` Python kernel, or run:
+
+```bash
+python -m pip install -r requirements-train.txt
+python summarize_categories_bart.py
+```
+
+The input is `data/reviews_with_meta_categories.csv` from the weighted category-clustering notebook. The first run downloads `sshleifer/distilbart-cnn-12-6`, a smaller BART summarization checkpoint. Five Markdown articles and evidence JSON files are written to `outputs/bart_category_articles/`. Each includes category praise and complaints, up to three profiles ranked by mean rating with at least ten rated reviews, and the lowest-rated eligible profile. Ratings are computed directly; BART writes review summaries. Conflicting product metadata and generated claims require checking against the saved source evidence.
+
+For a quick CPU experiment or to compare the notebook's source-framing variants:
+
+```bash
+python summarize_categories_bart.py --category "Cases and protective covers"
+python summarize_categories_bart.py --variant framed --output outputs/bart_category_articles_framed
+```
+
+Section summaries are cached locally in `outputs/bart_cache/`. The notebook includes a manual quality rubric; no independent accuracy or fine-tuning result is claimed.
+
+## Task 3 alternative: local GPU articles with Qwen
+
+`models/category_summary_qwen_gpu.ipynb` uses Qwen3-4B-Instruct-2507 on the NVIDIA GPU with 4-bit NF4 quantization. Select `.venv-qwen/Scripts/python.exe` in the notebook kernel picker. Set up the separate environment from the repository root:
+
+```powershell
+python -m venv .venv-qwen
+.\.venv-qwen\Scripts\python.exe -m pip install torch --index-url https://download.pytorch.org/whl/cu128
+.\.venv-qwen\Scripts\python.exe -m pip install -r requirements-qwen.txt
+.\.venv-qwen\Scripts\python.exe summarize_categories_qwen.py
+```
+
+The first model load downloads about 8 GB of original weights, then quantizes them onto the GPU. The script requires CUDA and does not silently fall back to CPU. Articles, sampled review evidence, citation checks and GPU timing/memory records are saved to `outputs/qwen_category_articles/`. Full review texts stay in the local evidence JSON; prompts use bounded excerpts. Product metadata names are unverified, so comparisons use profile IDs and acknowledge uncertain identities.
+
+Compare three prompts on identical evidence:
+
+```powershell
+.\.venv-qwen\Scripts\python.exe summarize_categories_qwen.py --compare-prompts --category "Cases and protective covers" --output outputs/qwen_prompt_comparison
+```
+
+Source citation IDs are checked automatically; factual support still needs manual review. Cached generations are in `outputs/qwen_cache/`. This is an inference baseline with no fine-tuning.
+
+## Source file reference
 
 - `models/sentiment_analysis_model.ipynb` — data exploration, baseline, transformer experiment, and evaluation.
 - `train_transformer.py` — reproducible training, validation-based checkpoint selection, and held-out test evaluation.
