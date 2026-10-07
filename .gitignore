@@ -10,3 +10,6 @@ models/distilbert-sentiment/
 !/outputs/bart_category_articles/source_framing_comparison.json
 /outputs/qwen_category_articles/*.json
 /outputs/qwen_prompt_comparison/*.json
+!/outputs/qwen_category_articles/editorial_summaries.json
+!/outputs/qwen_category_articles/editorial_revision_manifest.json
+!/outputs/qwen_prompt_comparison/editorial_revision_manifest.json

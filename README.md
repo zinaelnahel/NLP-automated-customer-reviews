@@ -140,6 +140,8 @@ Compare three prompts on identical evidence:
 
 Source citation IDs are checked automatically; factual support still needs manual review. Cached generations are in `outputs/qwen_cache/`. This is an inference baseline with no fine-tuning.
 
+The saved Qwen articles now have evidence-checked editorial revisions with profile-level strengths, complaints, comparisons, and lowest-rated-profile explanations. Original generations remain in `original_drafts/` within each output directory. Reproduce these revisions from the existing local evidence JSON files with `python revise_saved_qwen_articles.py`; this does not run the model. The updated cited prompt requests the same structure for future GPU runs, but has not yet been evaluated. See the output quality review for provenance and remaining identity limitations.
+
 ## Source file reference
 
 - `models/sentiment_analysis_model.ipynb` — data exploration, baseline, transformer experiment, and evaluation.

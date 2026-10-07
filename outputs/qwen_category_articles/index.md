@@ -1,6 +1,6 @@
 # Qwen GPU category articles
 
-Articles and source evidence from the GPU experiment.
+Evidence-checked editorial revisions of the saved GPU drafts. No new model inference was run. Each article now includes profile-level strengths, complaints, differences, and the lowest-rated eligible profile. Original model outputs are preserved in `original_drafts/`.
 
 - [Cases and protective covers (cited)](cases-and-protective-covers.md) ·
 - [Chargers, cables and power accessories (cited)](chargers-cables-and-power-accessories.md) ·

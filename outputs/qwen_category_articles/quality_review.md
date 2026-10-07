@@ -1,5 +1,13 @@
 # Qwen GPU experiment: results and limitations
 
+## Editorial revision of saved articles
+
+The current five category articles and the cited covers article in `../qwen_prompt_comparison/` were edited against the saved review excerpts without rerunning Qwen. They include profile-specific strengths and complaints, supported differences, and reasons to investigate the lowest-rated eligible profile. Ratings and counts are rendered directly from the saved computed facts. The covers rating and complaint attribution errors described below have been corrected in these revisions. Unsupported quotes were replaced with evidence-based paraphrases, and a positive-text one-star tablet review is explicitly identified as unsuitable complaint evidence.
+
+Original model prose is retained in each directory's `original_drafts/`. The measurements, original-generation audits, and observations below concern those original drafts. Editorial provenance is recorded in `editorial_revision_manifest.json`; the JSON inference sidecars were left intact. All revised citation IDs and profile-specific attribution passed structural checks. This is not a new model benchmark or an independent factuality score. Product identities remain unverified.
+
+To reproduce the editorial revisions from the existing local evidence sidecars, run `python revise_saved_qwen_articles.py`. The summaries used by that renderer are stored in `editorial_summaries.json`. The Qwen cited prompt was also updated for future runs to request profile-level sections and leave numerical ratings to the computed table; that new prompt has not yet been evaluated on GPU.
+
 Generated locally on NVIDIA GeForce RTX 5060 Laptop GPU (8 GB), using PyTorch 2.11.0+cu128 and 4-bit NF4 Qwen3-4B-Instruct. The original weights are pinned to revision `cdbee75f17c01a7cc42f958dc650907174af0554`. GPU computation and 4-bit kernels were tested before generation.
 
 ## Generation measurements

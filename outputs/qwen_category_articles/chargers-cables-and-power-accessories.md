@@ -1,30 +1,57 @@
-# Chargers, cables and power accessories: customer-review article
+# Chargers, cables and power accessories: what customers say
 
-> GPU model draft. Check claims against review evidence; use the computed table for ratings and counts.
+> Editorial revision of a saved Qwen draft, checked against the supplied review excerpts. Statistics come from the saved computed facts; product identities remain unverified.
 
-**Strengths**  
-Several reviewers praise the charging performance and versatility of certain models. One user notes the charger "charges the Kindle quickly" and describes it as "super quality" [E3077]. Another highlights its ability to charge other USB devices, calling it "versatile" [E28633]. A positive review emphasizes convenience, stating it "works like a DREAM!" for travel use, keeping devices plugged in without cluttering desks [E34639].
+Based on 512 source rows across 8 metadata profiles. Rankings use mean stars among profiles with at least 10 rated reviews. Reviews are historical, and the selected excerpts do not establish complaint frequency.
 
-**Tradeoffs**  
-The inclusion of chargers as optional purchases is a recurring point of contention. Multiple reviews suggest that buyers already possess chargers from phones or tablets, making the purchase redundant [E28670, E28671, E3084]. One reviewer calls the pricing "overpriced by 4X" and questions Amazon’s business model [E28670]. Another criticizes the pricing as "overpriced" despite functional performance [E3282].
+Reviews discuss everyday charging convenience alongside doubts about value and compatibility. The sample contains reports of satisfactory charging [E3077] and insufficient-power warnings [E28634, E34650]. These experiences belong to different profiles.
 
-**Complaints**  
-Several users report receiving incorrect or mismatched products. One reviewer claims to have received an "LG Electronics" charger instead of the Amazon OEM model [E3270]. Another reports the charger fails to charge a Kindle Fire HDX due to insufficient wattage, despite being listed as compatible [E34650]. A negative review notes the charger is "terrible" and fails to charge properly [E28634].
+## Highest-rated eligible profiles
 
-**Cautious Conclusion**  
-While some models perform well and offer convenience, the evidence suggests a recurring theme: the chargers are often seen as unnecessary and overpriced, especially when users already have alternative chargers. The mismatch in product identity and charging compatibility raises concerns about product accuracy and fulfillment. However, no single product is definitively superior in performance or value. The lowest-rated profile (profile 88) has a mean rating of 2.46, but this is based on only 13 reviews, making it statistically limited. Without a clear benchmark for "standard" charging, the value remains subjective. Consumers should evaluate their own needs and existing equipment before purchasing.
+### 1: profile 11
 
-## Computed rating statistics
+**4.46/5** from 189 rated reviews; 1–2-star share: 10.6%.
 
-These figures are calculated directly from source rows. Metadata profiles are not verified product identities.
+**Strengths.** One reviewer says the charger works well, feels well made, and charges their Kindle quickly [E3077].
 
-| Role | Profile | Rated reviews | Mean stars | 1–2-star share |
-|---|---:|---:|---:|---:|
-| Top eligible | 11 | 189 | 4.46 | 10.6% |
-| Top eligible | 12 | 212 | 4.43 | 8.0% |
-| Top eligible | 79 | 73 | 4.21 | 16.4% |
-| Lowest eligible | 88 | 13 | 2.46 | 61.5% |
+**Complaints and limits.** One questions whether an additional charger is necessary; another says it works but is overpriced and should have been included with the device [E3084, E3103]. These are value concerns rather than reported failures.
+
+### 2: profile 12
+
+**4.43/5** from 212 rated reviews; 1–2-star share: 8.0%.
+
+**Strengths.** One reviewer values charging a Paperwhite from a wall outlet while travelling without a computer [E3477].
+
+**Complaints and limits.** One reports receiving an LG/Verizon accessory instead of the advertised Amazon charger [E3270]. Another says the adapter works but is overpriced [E3282]. The fulfillment complaint does not demonstrate that the intended charger is defective.
+
+### 3: profile 79
+
+**4.21/5** from 73 rated reviews; 1–2-star share: 16.4%.
+
+**Strengths.** One reviewer appreciates the USB socket's flexibility for charging different devices and reports satisfactory charging performance [E28633].
+
+**Complaints and limits.** Another says their Kindle identified the accessory as a low-power charger [E28634]. This single report does not establish a failure rate.
+
+## Key differences
+
+Profile 11's sample emphasizes charging and value; profile 12 adds travel convenience and a wrong-item delivery report. Profile 79 adds connector flexibility but also a low-power warning [E3077, E3103, E3477, E3270, E28633, E28634]. These are differences in reported experience, not verified specification comparisons.
+
+## Lowest-rated eligible profile
+
+### Lowest: profile 88
+
+**2.46/5** from 13 rated reviews; 1–2-star share: 61.5%.
+
+**Strengths.** One reviewer praises charging quality and the heavy-duty cord, but also says it does not work with their Kindle in a cover [E34647].
+
+**Complaints and limits.** One reports an insufficient-wattage warning on a Kindle Fire HDX 8.9 despite advertised compatibility [E34650]. Cover fit is also a limitation in the otherwise positive review [E34647].
+
+Its lower rating is accompanied by a device-specific power warning and a cover-fit limitation [E34650, E34647]. Confirm compatibility with the exact device and cover; the sampled reports do not justify avoiding every accessory represented by this uncertain identity.
+
+## Conclusion
+
+Charging convenience is well represented, but power compatibility and accessory fit need checking. Historical price complaints should not be read as current price comparisons.
 
 ---
 
-Generated locally with Qwen3-4B-Instruct, 4-bit, on GPU. Evidence IDs refer to the accompanying JSON. Product identities remain unverified; this is a review draft.
+Evidence IDs refer to the accompanying JSON. Its generation measurements and audits describe the original Qwen output, preserved in `original_drafts/`. This revision was edited without rerunning Qwen; editorial provenance is in `editorial_revision_manifest.json`.

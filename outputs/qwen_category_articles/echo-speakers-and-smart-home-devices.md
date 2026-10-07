@@ -1,30 +1,57 @@
-# Echo speakers and smart-home devices: customer-review article
+# Echo speakers and smart-home devices: what customers say
 
-> GPU model draft. Check claims against review evidence; use the computed table for ratings and counts.
+> Editorial revision of a saved Qwen draft, checked against the supplied review excerpts. Statistics come from the saved computed facts; product identities remain unverified.
 
-**Strengths**  
-Several reviewers highlight the Echo’s ease of setup and strong performance in smart home control [E24461]. One user praised its ability to manage lights and music across rooms, noting effective voice control even through walls [E24461]. The device is also lauded for its integration with apps and growing ecosystem, with users noting its expanding capabilities over time [E24461]. A reviewer called it a "wonderful gift" and commended Amazon’s fast delivery and customer service [E25019].
+Based on 7,279 source rows across 22 metadata profiles. Rankings use mean stars among profiles with at least 10 rated reviews. Reviews are historical, and the selected excerpts do not establish complaint frequency.
 
-**Tradeoffs**  
-Despite positive feedback, some users report limitations in functionality. For instance, one reviewer noted the device cannot set timers or dim lights, a significant shortcoming for smart home automation [E24919]. Others point out that Alexa struggles with specific queries, such as humidity or aircraft manufacturers, indicating gaps in natural language understanding [E27820, E27916].
+Voice-controlled lights and daily routines draw praise in the sample [E28509, E27820]. Two reviewers report disappointing answers to questions [E27916, E27655]. These historical experiences describe usability themes, not the capabilities of current devices.
 
-**Complaints**  
-Multiple reviews cite poor performance in basic tasks. One user claims Alexa fails to answer questions about UPS or current humidity [E27916]. Another criticizes the lack of a subscription-free model, calling it a "subscription trap" compared to Google Home [E22666]. Installation issues are also reported, with one user stating it failed to work despite having Wi-Fi and a computer [E25079].
+## Highest-rated eligible profiles
 
-**Cautious Conclusion**  
-The Echo demonstrates strong potential as a smart home hub, especially for users seeking voice-activated control and music playback. However, its performance in complex queries and lack of advanced features like timers or dimming raise concerns. While some users report high satisfaction, others find it underperforming compared to alternatives. Profile 53 (Fire Tablet) has the lowest mean rating at 4.5, but this does not reflect a general flaw in the Echo category. Without verified performance metrics or independent validation, claims about Alexa’s intelligence remain anecdotal. Users should evaluate based on their specific needs, particularly regarding smart home integration and voice accuracy.
+### 1: profile 67
 
-## Computed rating statistics
+**4.77/5** from 128 rated reviews; 1–2-star share: 0.8%.
 
-These figures are calculated directly from source rows. Metadata profiles are not verified product identities.
+**Strengths.** The selected positive review describes successful delivery of an Echo gift and good customer service, rather than detailed device performance [E25019].
 
-| Role | Profile | Rated reviews | Mean stars | 1–2-star share |
-|---|---:|---:|---:|---:|
-| Top eligible | 67 | 128 | 4.77 | 0.8% |
-| Top eligible | 68 | 318 | 4.73 | 0.9% |
-| Top eligible | 63 | 36 | 4.69 | 0.0% |
-| Lowest eligible | 53 | 16 | 4.50 | 6.2% |
+**Complaints and limits.** One reviewer reports disappointment that light controls could not schedule a delayed switch-off [E24919]. This is a historical report, not a claim about present functionality.
+
+### 2: profile 68
+
+**4.73/5** from 318 rated reviews; 1–2-star share: 0.9%.
+
+**Strengths.** One reviewer finds setup easy and says they purchased additional units for family [E25033].
+
+**Complaints and limits.** Another reports that the recipient could not complete setup with a computer and Wi-Fi but without a smartphone [E25079]. The sample supports contrasting setup experiences, not a universal setup requirement.
+
+### 3: profile 63
+
+**4.69/5** from 36 rated reviews; 1–2-star share: 0.0%.
+
+**Strengths.** One reviewer expresses strong satisfaction with Alexa and says they use it around the house [E24855].
+
+**Complaints and limits.** No low-rated review was supplied for this profile. The selected praise is too general to establish detailed strengths or an absence of problems.
+
+## Key differences
+
+Profile 67 has a specific automation complaint; profile 68 has contrasting setup reports; profile 63 has only general praise in the supplied sample [E24919, E25033, E25079, E24855]. That is insufficient for a verified hardware comparison.
+
+## Lowest-rated eligible profile
+
+### Lowest: profile 53
+
+**4.50/5** from 16 rated reviews; 1–2-star share: 6.2%.
+
+**Strengths.** One reviewer describes buying an extra Echo power cord to make moving the device between rooms more convenient [E21276].
+
+**Complaints and limits.** Another says the purchased replacement cord did not fit their older Fire TV [E21281]. The reviews concern different device contexts, so the profile's product identity is especially uncertain.
+
+The reported wrong-fit cord is a reason to verify accessory identity and compatibility [E21281]. Since its evidence mixes Echo and Fire TV contexts [E21276, E21281], an avoidance recommendation for a particular speaker would be unsupported.
+
+## Conclusion
+
+The category summary is more dependable than named-device recommendations here. Repair the conflicting metadata before comparing actual speaker models.
 
 ---
 
-Generated locally with Qwen3-4B-Instruct, 4-bit, on GPU. Evidence IDs refer to the accompanying JSON. Product identities remain unverified; this is a review draft.
+Evidence IDs refer to the accompanying JSON. Its generation measurements and audits describe the original Qwen output, preserved in `original_drafts/`. This revision was edited without rerunning Qwen; editorial provenance is in `editorial_revision_manifest.json`.

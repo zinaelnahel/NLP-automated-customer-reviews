@@ -1,0 +1,62 @@
+[
+  {
+    "article": "cases-and-protective-covers.md",
+    "original": "original_drafts/cases-and-protective-covers.md",
+    "evidence": "cases-and-protective-covers.json",
+    "method": "Evidence-checked editorial revision; no new model inference",
+    "checks": [
+      "citation existence",
+      "profile citation attribution",
+      "statistics rendered from saved facts"
+    ],
+    "limits": "Checks are structural; semantic support was reviewed editorially, not scored independently."
+  },
+  {
+    "article": "chargers-cables-and-power-accessories.md",
+    "original": "original_drafts/chargers-cables-and-power-accessories.md",
+    "evidence": "chargers-cables-and-power-accessories.json",
+    "method": "Evidence-checked editorial revision; no new model inference",
+    "checks": [
+      "citation existence",
+      "profile citation attribution",
+      "statistics rendered from saved facts"
+    ],
+    "limits": "Checks are structural; semantic support was reviewed editorially, not scored independently."
+  },
+  {
+    "article": "echo-speakers-and-smart-home-devices.md",
+    "original": "original_drafts/echo-speakers-and-smart-home-devices.md",
+    "evidence": "echo-speakers-and-smart-home-devices.json",
+    "method": "Evidence-checked editorial revision; no new model inference",
+    "checks": [
+      "citation existence",
+      "profile citation attribution",
+      "statistics rendered from saved facts"
+    ],
+    "limits": "Checks are structural; semantic support was reviewed editorially, not scored independently."
+  },
+  {
+    "article": "fire-tv-and-streaming-devices.md",
+    "original": "original_drafts/fire-tv-and-streaming-devices.md",
+    "evidence": "fire-tv-and-streaming-devices.json",
+    "method": "Evidence-checked editorial revision; no new model inference",
+    "checks": [
+      "citation existence",
+      "profile citation attribution",
+      "statistics rendered from saved facts"
+    ],
+    "limits": "Checks are structural; semantic support was reviewed editorially, not scored independently."
+  },
+  {
+    "article": "tablets-and-e-readers.md",
+    "original": "original_drafts/tablets-and-e-readers.md",
+    "evidence": "tablets-and-e-readers.json",
+    "method": "Evidence-checked editorial revision; no new model inference",
+    "checks": [
+      "citation existence",
+      "profile citation attribution",
+      "statistics rendered from saved facts"
+    ],
+    "limits": "Checks are structural; semantic support was reviewed editorially, not scored independently."
+  }
+]

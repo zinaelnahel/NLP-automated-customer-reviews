@@ -1,28 +1,37 @@
-# Fire TV and streaming devices: customer-review article
+# Fire TV and streaming devices: what customers say
 
-> GPU model draft. Check claims against review evidence; use the computed table for ratings and counts.
+> Editorial revision of a saved Qwen draft, checked against the supplied review excerpts. Statistics come from the saved computed facts; product identities remain unverified.
 
-**Strengths**  
-The Amazon Fire TV Stick is praised for its ability to deliver high-quality streaming, especially for users with non-smart TVs or those struggling with app performance on existing smart TVs [E21219]. Reviewers highlight its compatibility with Netflix, HBO Go, Amazon Prime, and support for third-party apps like Kodi [E21563, E14730]. It excels in handling 5.1 audio and Dolby Digital Plus, a feature missing from earlier devices like the Roku 4 [E21563]. For Prime users, the device offers seamless integration with Amazon’s ecosystem [E34627].
+Based on 5,074 source rows across 5 metadata profiles. Rankings use mean stars among profiles with at least 10 rated reviews. Reviews are historical, and the selected excerpts do not establish complaint frequency.
 
-**Tradeoffs**  
-The device is criticized for its interface, which is seen as clunky and less intuitive than competitors like Roku or Apple TV [E30127]. Some users report difficulty with 5GHz Wi-Fi connectivity, requiring technical troubleshooting [E34387]. The interface lacks efficient app sorting or navigation, making it hard to locate content [E34384]. Additionally, the remote’s buttons are described as hard to press, and the device frequently loses remote connection [E34384].
+The sample includes enthusiasm for streaming services and home-entertainment use [E21563, E21220]. Two reviewers report boot problems with refurbished units in profile 56 [E21562, E21566]. Those complaints should not be attributed to the eligible profile 85.
 
-**Complaints**  
-Multiple reviews point to serious issues with refurbished units, including boot failures, screen corruption, and HDMI connectivity problems [E21562, E21566, E21569]. One user reports 4K streaming fails despite a stable 65Mbps connection [E34380]. Another notes persistent ads and a cluttered interface, which some find distracting [E14477, E30127].
+## Highest-rated eligible profiles
 
-**Cautious Conclusion**  
-The Fire TV Stick performs well for users seeking reliable streaming with strong Amazon integration and 5.1 audio support [E21563, E14730]. However, its interface, Wi-Fi compatibility, and refurbished unit reliability raise concerns. While it is a strong option for Prime users and those with non-smart TVs, the recurring issues with refurbished versions and performance on 5GHz networks suggest caution. The mean rating across all profiles is 4.7, indicating a generally positive sentiment, but the significant complaints about refurbished units and usability point to variability in real-world performance. Without verified product names, comparisons remain profile-specific.
+Only 1 eligible profile(s) are available; a top-three list cannot be supported.
 
-## Computed rating statistics
+### 1: profile 85
 
-These figures are calculated directly from source rows. Metadata profiles are not verified product identities.
+**4.71/5** from 5056 rated reviews; 1–2-star share: 1.4%.
 
-| Role | Profile | Rated reviews | Mean stars | 1–2-star share |
-|---|---:|---:|---:|---:|
-| Top eligible | 85 | 5056 | 4.71 | 1.4% |
-| Lowest eligible | 85 | 5056 | 4.71 | 1.4% |
+**Strengths.** One reviewer describes using separate streaming apps as a worthwhile alternative to their cable arrangement [E34625]. Another says the device works for Netflix, Hulu, and Amazon Video, while noting interface annoyances [E32835].
+
+**Complaints and limits.** Reviewers describe difficult app navigation, intrusive advertising, and a cluttered interface [E34384, E30127, E32835]. Individual reports also mention remote disconnections [E34384], difficulty connecting to a 5 GHz network [E34387], and buffering during attempted 4K streaming [E34380]. These reports do not establish present-day service or network compatibility.
+
+## Key differences
+
+Only one profile meets the minimum rating count, so an eligible top-three comparison is unavailable. Profile 56's refurbished-unit complaints provide category context [E21562, E21566], but it is not an additional eligible ranked product.
+
+## Lowest-rated eligible profile
+
+Profile 85 is the lowest-rated eligible profile; its statistics and review details appear above.
+
+It is simultaneously the highest- and lowest-rated eligible profile because it is the only eligible one. Interface and connection complaints warrant investigation [E34384, E34387, E30127]; its relative position supplies no reason to call it the worst product or recommend avoiding it.
+
+## Conclusion
+
+The sample supports a concise account of streaming convenience and usability frustrations. It cannot support three ranked product recommendations.
 
 ---
 
-Generated locally with Qwen3-4B-Instruct, 4-bit, on GPU. Evidence IDs refer to the accompanying JSON. Product identities remain unverified; this is a review draft.
+Evidence IDs refer to the accompanying JSON. Its generation measurements and audits describe the original Qwen output, preserved in `original_drafts/`. This revision was edited without rerunning Qwen; editorial provenance is in `editorial_revision_manifest.json`.

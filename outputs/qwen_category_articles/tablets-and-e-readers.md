@@ -1,30 +1,57 @@
-# Tablets and e-readers: customer-review article
+# Tablets and e-readers: what customers say
 
-> GPU model draft. Check claims against review evidence; use the computed table for ratings and counts.
+> Editorial revision of a saved Qwen draft, checked against the supplied review excerpts. Statistics come from the saved computed facts; product identities remain unverified.
 
-**Strengths**  
-Several reviews highlight the Fire HD 8 and Paperwhite models as strong for basic use and Amazon content consumption. One reviewer praises the Fire HD 8 for being a "great buy" for users who primarily watch Netflix or browse the web, noting its affordability and suitability for 50–60% of tablet users [E606]. The Kindle Voyage is lauded for its sleek design, ease of one-handed page turning, and crisp e-ink screen [E20728]. The Fire HD 8 is also noted as having excellent battery life and a "pretty decent screen" when on sale [E3052].
+Based on 21,759 source rows across 47 metadata profiles. Rankings use mean stars among profiles with at least 10 rated reviews. Reviews are historical, and the selected excerpts do not establish complaint frequency.
 
-**Tradeoffs**  
-The operating system is described as distinct from standard Android, with users feeling it lacks customization and has built-in marketing elements like Amazon links and ad-based screen savers [E2932, E14400]. Some users report difficulty with web surfing due to software limitations [E14413]. Additionally, the device restricts app installation and access to third-party services like Facebook or iTunes [E2928, E16545].
+The category mixes tablet and dedicated reading experiences. One reviewer describes a tablet as suitable for basic browsing and entertainment [E606], while another values an e-reader's handling and page controls but reports a screen issue [E20728]. Product names conflict with some review descriptions, so the rankings below use profile IDs.
 
-**Complaints**  
-Multiple reviews cite technical and usability issues. One user claims the device cannot support Korean language input, a significant limitation for certain users [E14413]. Others report software crashes, with one user stating their Kindle Voyage froze after a software update and required a replacement [E21002]. A review notes the inability to access library books due to app restrictions [E17887].
+## Highest-rated eligible profiles
 
-**Cautious Conclusion**  
-While several profiles achieve high mean ratings (e.g., 4.86 for the 16GB Fire), the evidence shows inconsistent performance and significant user-specific limitations. The Fire HD 8 and Paperwhite models are well-regarded for price and core functionality, but their limitations in app support, language compatibility, and software stability suggest they are best suited for users focused on Amazon content. No single product emerges as universally superior, and the data does not support avoiding any model due to low ratings.
+### 1: profile 26
 
-## Computed rating statistics
+**4.86/5** from 51 rated reviews; 1–2-star share: 0.0%.
 
-These figures are calculated directly from source rows. Metadata profiles are not verified product identities.
+**Strengths.** One reviewer describes a light, small e-reader with a good display and squeeze-based page turning [E14708]. This conflicts with the tablet metadata name, which is therefore not used as a verified identity.
 
-| Role | Profile | Rated reviews | Mean stars | 1–2-star share |
-|---|---:|---:|---:|---:|
-| Top eligible | 26 | 51 | 4.86 | 0.0% |
-| Top eligible | 8 | 12 | 4.83 | 0.0% |
-| Top eligible | 48 | 49 | 4.82 | 2.0% |
-| Lowest eligible | 10 | 12 | 4.42 | 8.3% |
+**Complaints and limits.** No low-rated reviews are recorded for this profile in the saved statistics. The supplied sample cannot establish that the device is problem-free.
+
+### 2: profile 8
+
+**4.83/5** from 12 rated reviews; 1–2-star share: 0.0%.
+
+**Strengths.** One reviewer praises ease of holding, battery life, the screen, and access to Amazon content [E3052].
+
+**Complaints and limits.** No low-rated reviews are recorded for this profile. The same positive review acknowledges that competing tablets have better specifications [E3052], but provides no measured comparison.
+
+### 3: profile 48
+
+**4.82/5** from 49 rated reviews; 1–2-star share: 2.0%.
+
+**Strengths.** One reviewer appreciates the glass surface on a reader and considers the additional cost worthwhile [E21186]. This reader description conflicts with the tablet metadata name.
+
+**Complaints and limits.** The selected one-star review actually praises the product and service [E21216]. It supplies no textual complaint, so a fault cannot be inferred from its star rating.
+
+## Key differences
+
+Profile 26's sample emphasizes reader portability and page controls, profile 8's tablet review emphasizes content and battery life, and profile 48's reader review emphasizes its glass surface [E14708, E3052, E21186]. The mixed identities prevent a reliable comparison of three verified tablet models.
+
+## Lowest-rated eligible profile
+
+### Lowest: profile 10
+
+**4.42/5** from 12 rated reviews; 1–2-star share: 8.3%.
+
+**Strengths.** One reviewer calls it a good-value tablet and reports improved sound compared with a previous device [E3069]. This conflicts with the charger metadata name.
+
+**Complaints and limits.** Another expresses dissatisfaction with purchase-password controls after authorization and the selection of free apps [E3068]. These are individual usability concerns, not verified universal restrictions.
+
+The purchase-control and app-selection complaint identifies questions to investigate [E3068]. Its lowest-place ranking does not establish poor overall quality, and the conflicting identity prevents recommending that a named device be avoided.
+
+## Conclusion
+
+Use these summaries to identify review themes, then verify whether each profile represents a tablet or an e-reader before presenting a product shortlist.
 
 ---
 
-Generated locally with Qwen3-4B-Instruct, 4-bit, on GPU. Evidence IDs refer to the accompanying JSON. Product identities remain unverified; this is a review draft.
+Evidence IDs refer to the accompanying JSON. Its generation measurements and audits describe the original Qwen output, preserved in `original_drafts/`. This revision was edited without rerunning Qwen; editorial provenance is in `editorial_revision_manifest.json`.

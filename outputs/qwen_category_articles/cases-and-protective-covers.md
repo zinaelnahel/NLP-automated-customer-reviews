@@ -1,29 +1,45 @@
-# Cases and protective covers: customer-review article
+# Cases and protective covers: what customers say
 
-> GPU model draft. Check claims against review evidence; use the computed table for ratings and counts.
+> Editorial revision of a saved Qwen draft, checked against the supplied review excerpts. Statistics come from the saved computed facts; product identities remain unverified.
 
-**Strengths**  
-Several reviewers praise the cover’s secure fit and design innovation. One user notes the rubberized groove provides a "very tight and secure fit" and protects device corners [E15773]. Another highlights the form-fit design as superior to older models, stating it "secures the Kindle better" than the hinge-based predecessors [E2884]. The front cover is described as stylish and "genuine leather" with a pleasant new smell and attractive stitching [E2883].
+Based on 36 source rows across 7 metadata profiles. Rankings use mean stars among profiles with at least 10 rated reviews. Reviews are historical, and the selected excerpts do not establish complaint frequency.
 
-**Tradeoffs**  
-Despite positive design elements, multiple reviews note material concerns. One user calls the leather "flimsy" and "easily scratched" [E2881], while another describes the outer material as "plasticky" [E15775]. A recurring issue is the cover’s weight—some find it "lightweight" but others feel it lacks substance compared to prior generations [E2882, E15774].
+The sampled reviews describe a balance between secure fit, comfortable handling, and stand stability. One reviewer praises a snug rubberized fit [E15773], while another likes the leather and stitching [E2883]. These comments concern different profiles and should not be combined into one product description.
 
-**Complaints**  
-Several users report structural flaws. One reviewer claims the cover "will eventually crack" the Kindle due to hinge pressure from frequent opening [E34633]. Another criticizes the back hook closure, stating it can be accidentally opened, leading to device damage [E34631]. A profile with only 10 reviews (profile 86) has a 3.5 mean rating and three negative reviews, with one user calling it a "waste of money" due to instability [E28660].
+## Highest-rated eligible profiles
 
-**Cautious Conclusion**  
-The product shows mixed performance. While some users appreciate its secure fit, light weight, and aesthetic appeal, others report material fragility and structural risks. Profile 80 (mean rating 3.0) and 86 (mean rating 3.5) both have low ratings and recurring complaints about durability and usability. However, no evidence supports a single product as universally superior. The data does not allow a definitive ranking, as the evidence is fragmented and profile identities remain unverified. Consumers should consider their usage patterns—frequent handling or travel—when choosing.
+Only 2 eligible profile(s) are available; a top-three list cannot be supported.
 
-## Computed rating statistics
+### 1: profile 80
 
-These figures are calculated directly from source rows. Metadata profiles are not verified product identities.
+**3.92/5** from 13 rated reviews; 1–2-star share: 23.1%.
 
-| Role | Profile | Rated reviews | Mean stars | 1–2-star share |
-|---|---:|---:|---:|---:|
-| Top eligible | 80 | 13 | 3.92 | 23.1% |
-| Top eligible | 86 | 10 | 3.50 | 30.0% |
-| Lowest eligible | 86 | 10 | 3.50 | 30.0% |
+**Strengths.** One reviewer reports easy installation, good looks, and satisfactory protection [E28652].
+
+**Complaints and limits.** Three reviewers describe an unstable stand or a cover that slides, making hands-free use difficult [E28660, E28655, E28662]. One also reports poor alignment when closed and unintended waking from sleep [E28662].
+
+### 2: profile 86
+
+**3.50/5** from 10 rated reviews; 1–2-star share: 30.0%.
+
+**Strengths.** One reviewer appreciates the elastic closure and wanted a cover to improve grip and carrying confidence [E34630].
+
+**Complaints and limits.** Two reviewers associate the attachment mechanism with a risk of frame damage: one warns about hinge pressure, while another reports a cracked frame after opening the cover from the back [E34633, E34631]. These are customer reports, not independently established failure rates.
+
+## Key differences
+
+Profile 80's sampled complaints center on standing and alignment; profile 86's concern the attachment mechanism and possible device damage [E28660, E28662, E34633, E34631]. The evidence describes different usability problems, rather than establishing a universally better cover.
+
+## Lowest-rated eligible profile
+
+Profile 86 is the lowest-rated eligible profile; its statistics and review details appear above.
+
+The frame-damage reports give a concrete reason to investigate the attachment design before choosing this profile [E34633, E34631]. They do not establish that every unit causes damage.
+
+## Conclusion
+
+The useful distinction is between hands-free stability and attachment safety. Confirm the actual cover identity and device fit before treating these profile comparisons as buying advice.
 
 ---
 
-Generated locally with Qwen3-4B-Instruct, 4-bit, on GPU. Evidence IDs refer to the accompanying JSON. Product identities remain unverified; this is a review draft.
+Evidence IDs refer to the accompanying JSON. Its generation measurements and audits describe the original Qwen output, preserved in `original_drafts/`. This revision was edited without rerunning Qwen; editorial provenance is in `editorial_revision_manifest.json`.

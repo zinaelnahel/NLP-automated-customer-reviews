@@ -1,6 +1,6 @@
 # Qwen GPU category articles
 
-Articles and source evidence from the GPU experiment.
+The basic and grounded articles are original model outputs. The cited article has been editorially revised against the saved evidence; use [the original cited draft](original_drafts/cases-and-protective-covers.md) for comparisons of prompt behavior. No new inference was run for the revision.
 
 - [Cases and protective covers (basic)](cases-and-protective-covers-basic.md) ·
 - [Cases and protective covers (grounded)](cases-and-protective-covers-grounded.md) ·
