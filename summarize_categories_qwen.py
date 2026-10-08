@@ -6,7 +6,7 @@ import re
 import time
 from pathlib import Path
 
-from summarize_categories_bart import ROOT, prepare_data, product_stats, select_evidence
+from experiments.summarize_categories_bart import ROOT, prepare_data, product_stats, select_evidence
 
 MODEL_ID = 'Qwen/Qwen3-4B-Instruct-2507'
 MODEL_REVISION = 'cdbee75f17c01a7cc42f958dc650907174af0554'
