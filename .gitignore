@@ -5,11 +5,11 @@ models/distilbert-sentiment/
 /outputs/bart_cache/
 /.venv-qwen/
 /outputs/qwen_cache/
-/outputs/bart_category_articles/*.json
-/outputs/bart_category_articles_framed/*.json
-!/outputs/bart_category_articles/source_framing_comparison.json
+/experiments/bart_category_articles/*.json
+/experiments/bart_category_articles_framed/*.json
+!/experiments/bart_category_articles/source_framing_comparison.json
 /outputs/qwen_category_articles/*.json
-/outputs/qwen_prompt_comparison/*.json
+/experiments/qwen_prompt_comparison/*.json
 !/outputs/qwen_category_articles/editorial_summaries.json
 !/outputs/qwen_category_articles/editorial_revision_manifest.json
-!/outputs/qwen_prompt_comparison/editorial_revision_manifest.json
+!/experiments/qwen_prompt_comparison/editorial_revision_manifest.json

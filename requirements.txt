@@ -9,5 +9,6 @@ huggingface_hub>=0.28
 transformers>=4.51,<6
 accelerate>=1.6
 bitsandbytes>=0.46
-pandas>=2.0
 ipykernel>=6
+matplotlib>=3.8
+seaborn>=0.13

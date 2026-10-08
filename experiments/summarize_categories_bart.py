@@ -7,7 +7,7 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 MODEL_ID = 'sshleifer/distilbart-cnn-12-6'
 MODEL_REVISION = 'a4f8f3ea906ed274767e9906dbaede7531d660ff'
 GENERATION_SETTINGS = {'max_new_tokens': 100, 'min_length': 0, 'num_beams': 2,
@@ -181,7 +181,7 @@ def generate_articles(df, summarizer, output_dir, min_reviews=10, category=None)
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--data', type=Path, default=ROOT / 'data/reviews_with_meta_categories.csv')
-    parser.add_argument('--output', type=Path, default=ROOT / 'outputs/bart_category_articles')
+    parser.add_argument('--output', type=Path, default=ROOT / 'experiments/bart_category_articles')
     parser.add_argument('--category', help='Generate only this exact category name for a quick experiment.')
     parser.add_argument('--variant', choices=['plain', 'framed'], default='plain')
     parser.add_argument('--min-reviews', type=int, default=10)

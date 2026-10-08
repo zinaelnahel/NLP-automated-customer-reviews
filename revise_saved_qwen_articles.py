@@ -108,7 +108,7 @@ def main():
                          'checks': ['citation existence', 'profile citation attribution', 'statistics rendered from saved facts'],
                          'limits': 'Checks are structural; semantic support was reviewed editorially, not scored independently.'})
     (OUTPUT / 'editorial_revision_manifest.json').write_text(json.dumps(manifest, indent=2), encoding='utf-8')
-    comparison = ROOT / 'outputs/qwen_prompt_comparison'
+    comparison = ROOT / 'experiments/qwen_prompt_comparison'
     slug = 'cases-and-protective-covers'
     comparison_payload = json.loads((comparison / f'{slug}.json').read_text(encoding='utf-8'))
     save_revision(comparison / f'{slug}.md', render(comparison_payload, summaries[slug]))

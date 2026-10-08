@@ -8,6 +8,6 @@ Evidence-checked editorial revisions of the saved GPU drafts. No new model infer
 - [Fire TV and streaming devices (cited)](fire-tv-and-streaming-devices.md) ·
 - [Tablets and e-readers (cited)](tablets-and-e-readers.md) ·
 
-[GPU measurements and quality review](quality_review.md) ? [Three-prompt comparison](../qwen_prompt_comparison/index.md)
+[GPU measurements and quality review](quality_review.md) ? [Three-prompt comparison](../../experiments/qwen_prompt_comparison/index.md)
 
 Review evidence JSON files are generated locally and excluded from Git. Rerun the corresponding notebook or script to recreate them.
