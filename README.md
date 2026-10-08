@@ -37,3 +37,37 @@ Install the app dependencies and start Streamlit:
 python -m pip install -r requirements.txt
 python -m streamlit run app.py
 ```
+## Project structure
+
+`	ext
+.
+|-- README.md
+|-- app.py                         # Streamlit sentiment demo
+|-- requirements*.txt              # App, training, and Qwen dependencies
+|-- train_transformer.py           # Sentiment training and evaluation
+|-- upload_model_to_hf.py           # Publish the sentiment model
+|-- summarize_categories_qwen.py   # Generate category articles
+|-- revise_saved_qwen_articles.py  # Render evidence-checked revisions
+|-- data/                          # Source reviews and category-labeled CSV
+|-- models/                        # Main workflow notebooks
+|-- experiments/                   # Alternative models and prompt comparisons
+|-- outputs/                       # Articles, evidence, and quality reviews
+-- .streamlit/                    # Streamlit configuration
+`
+
+## Key findings, limitations, and future improvements
+
+- **Class imbalance:** about 93% of the labeled reviews are positive. Overall accuracy therefore needs to be read alongside per-class precision, recall, and macro F1.
+- **Neutral sentiment remains difficult:** the saved DistilBERT notebook run reports a neutral-class F1 of about 0.41, compared with about 0.97 for positive reviews. Mixed opinions and labels derived from star ratings can make text sentiment ambiguous.
+- **Clustering findings:** the selected feature weights improve silhouette in the same review-embedding space from 0.201 to 0.381. Six learned clusters are consolidated into five output categories. These scores measure separation on this dataset, not accuracy against verified category labels.
+- **Generation errors:** original Qwen drafts included incorrect ratings, misattributed complaints, and unsupported quotations. Saved articles were revised against review evidence; valid citation IDs alone do not prove that a claim is supported. See the [Qwen quality review](outputs/qwen_category_articles/quality_review.md).
+- **Future improvements:** improve minority-class sentiment performance, verify product identities, evaluate on held-out products, and build human-reviewed summaries for article evaluation and possible fine-tuning. Extend factuality checks beyond citation existence and compare models using identical evidence samples.
+
+## Credits and references
+
+- **Dataset:** Datafiniti's [Consumer Reviews of Amazon Products](https://www.kaggle.com/datasets/datafiniti/consumer-reviews-of-amazon-products), the source of 1429_1.csv.
+- **Sentiment backbone:** [DistilBERT base uncased](https://huggingface.co/distilbert/distilbert-base-uncased).
+- **Sentence embeddings:** [Sentence Transformers all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2).
+- **Article generation:** [Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507).
+- **Alternative generation experiments:** [DistilBART CNN 12-6](https://huggingface.co/sshleifer/distilbart-cnn-12-6) and [Llama 3.2 3B Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct).
+
