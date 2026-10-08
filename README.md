@@ -39,7 +39,7 @@ python -m streamlit run app.py
 ```
 ## Project structure
 
-`	ext
+```text
 .
 |-- README.md
 |-- app.py                         # Streamlit sentiment demo
@@ -52,8 +52,9 @@ python -m streamlit run app.py
 |-- models/                        # Main workflow notebooks
 |-- experiments/                   # Alternative models and prompt comparisons
 |-- outputs/                       # Articles, evidence, and quality reviews
--- .streamlit/                    # Streamlit configuration
-`
+`-- .streamlit/                    # Streamlit configuration
+```
+
 
 ## Key findings, limitations, and future improvements
 
