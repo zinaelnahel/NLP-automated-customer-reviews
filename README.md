@@ -6,17 +6,17 @@ This project turns customer reviews into a three-step workflow: sentiment analys
 
 ### 1. Sentiment analysis
 
-[Open the sentiment analysis notebook](models/sentiment_analysis_model.ipynb). It fine-tunes **DistilBERT** to classify reviews as **negative**, **neutral**, or **positive** (ratings 1–2, 3, and 4–5). DistilBERT understands context in review text and is compact enough for practical inference. A TF-IDF/logistic-regression baseline is also included for comparison.
+[Open the sentiment analysis notebook](models/1_sentiment_analysis_model.ipynb). It fine-tunes **DistilBERT** to classify reviews as **negative**, **neutral**, or **positive** (ratings 1–2, 3, and 4–5). DistilBERT understands context in review text and is compact enough for practical inference. A TF-IDF/logistic-regression baseline is also included for comparison.
 
 **Deployment:** [Try the Streamlit app](https://nlp-automated-customer-reviews-7jbb8pzrk6libeae7frbyo.streamlit.app/)
 
 ### 2. Product category clustering
 
-[Open the weighted category clustering notebook](models/category_clustering_model_weighted.ipynb). It encodes category paths, product names, and review text with **Sentence Transformers** (`all-MiniLM-L6-v2`), then applies **K-means** to group products into five categories. Semantic embeddings capture meaning beyond exact word matches, while weighted inputs let product and review evidence contribute to the clusters. The labeled reviews are saved to `data/reviews_with_meta_categories.csv`.
+[Open the weighted category clustering notebook](models/2_category_clustering_model.ipynb). It encodes category paths, product names, and review text with **Sentence Transformers** (`all-MiniLM-L6-v2`), then applies **K-means** to group products into five categories. Semantic embeddings capture meaning beyond exact word matches, while weighted inputs let product and review evidence contribute to the clusters. The labeled reviews are saved to `data/reviews_with_meta_categories.csv`.
 
 ### 3. Category review articles
 
-[Open the Qwen article notebook](models/category_summary_qwen_gpu.ipynb). It uses **Qwen3-4B-Instruct** to draft an article for each category from sampled review evidence and computed product-rating summaries. An instruction-tuned generative model suits the article-writing task; the cited evidence helps readers verify claims. The output is a draft and should be checked against its cited reviews.
+[Open the Qwen article notebook](models/3_summary_model.ipynb). It uses **Qwen3-4B-Instruct** to draft an article for each category from sampled review evidence and computed product-rating summaries. An instruction-tuned generative model suits the article-writing task; the cited evidence helps readers verify claims. The output is a draft and should be checked against its cited reviews.
 
 ## Data
 
@@ -31,7 +31,7 @@ We also created alternative versions of Models 2 and 3 and compared their result
 
 ## Run the demo locally
 
-Install the app dependencies and start Streamlit:
+Install the project dependencies and start Streamlit:
 
 ```bash
 python -m pip install -r requirements.txt
@@ -43,7 +43,7 @@ python -m streamlit run app.py
 .
 |-- README.md
 |-- app.py                         # Streamlit sentiment demo
-|-- requirements*.txt              # App, training, and Qwen dependencies
+|-- requirements.txt               # App, notebook, and experiment dependencies
 |-- train_transformer.py           # Sentiment training and evaluation
 |-- upload_model_to_hf.py           # Publish the sentiment model
 |-- summarize_categories_qwen.py   # Generate category articles
@@ -71,4 +71,3 @@ python -m streamlit run app.py
 - **Sentence embeddings:** [Sentence Transformers all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2).
 - **Article generation:** [Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507).
 - **Alternative generation experiments:** [DistilBART CNN 12-6](https://huggingface.co/sshleifer/distilbart-cnn-12-6) and [Llama 3.2 3B Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct).
-
